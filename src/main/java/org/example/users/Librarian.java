@@ -1,4 +1,4 @@
-package org.example.Users;
+package org.example.users;
 
 public class Librarian implements User {
     public void printUser() {

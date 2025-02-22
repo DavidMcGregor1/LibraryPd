@@ -1,7 +1,10 @@
 package org.example;
 
+import org.example.engines.RunEngine;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        RunEngine gameEngine = new RunEngine();
+        gameEngine.start();
     }
 }
